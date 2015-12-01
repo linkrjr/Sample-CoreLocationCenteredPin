@@ -1,0 +1,112 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Geotification"
+provides-nominal:
+- "C30Sample_CoreLocationCenteredPin13Geotification"
+provides-member:
+- ["C30Sample_CoreLocationCenteredPin13Geotification", ""]
+provides-dynamic-lookup:
+- "radius"
+- "identifier"
+- "coordinate"
+depends-top-level:
+- "MKAnnotation"
+- "Geotification"
+- !private "StringLiteralType"
+- "NSObject"
+- "CLLocationDirection"
+- "CLLocationCoordinate2D"
+- "String"
+depends-member:
+- ["PSs9AnyObject", "coordinate"]
+- ["PSs9AnyObject", "identifier"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "radius"]
+- ["PSs9AnyObject", "subtitle"]
+- ["PSs9AnyObject", "title"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "coordinate"]
+- ["PSs11CVarArgType", "identifier"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "radius"]
+- ["PSs11CVarArgType", "subtitle"]
+- ["PSs11CVarArgType", "title"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "coordinate"]
+- ["PSs23CustomStringConvertible", "identifier"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "radius"]
+- ["PSs23CustomStringConvertible", "subtitle"]
+- ["PSs23CustomStringConvertible", "title"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "coordinate"]
+- ["PSs9Equatable", "identifier"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "radius"]
+- ["PSs9Equatable", "subtitle"]
+- ["PSs9Equatable", "title"]
+- ["PSs9Equatable", ""]
+- ["C30Sample_CoreLocationCenteredPin13Geotification", "CLLocationCoordinate2D"]
+- ["C30Sample_CoreLocationCenteredPin13Geotification", "CLLocationDirection"]
+- ["C30Sample_CoreLocationCenteredPin13Geotification", "String"]
+- ["C30Sample_CoreLocationCenteredPin13Geotification", "coordinate"]
+- ["C30Sample_CoreLocationCenteredPin13Geotification", "deinit"]
+- ["C30Sample_CoreLocationCenteredPin13Geotification", "identifier"]
+- ["C30Sample_CoreLocationCenteredPin13Geotification", "init"]
+- ["C30Sample_CoreLocationCenteredPin13Geotification", "radius"]
+- ["C30Sample_CoreLocationCenteredPin13Geotification", "subtitle"]
+- ["C30Sample_CoreLocationCenteredPin13Geotification", "title"]
+- ["PSs8Hashable", "coordinate"]
+- ["PSs8Hashable", "identifier"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "radius"]
+- ["PSs8Hashable", "subtitle"]
+- ["PSs8Hashable", "title"]
+- ["PSs8Hashable", ""]
+- ["PSo12MKAnnotation", "coordinate"]
+- !private ["PSo12MKAnnotation", "identifier"]
+- !private ["PSo12MKAnnotation", "radius"]
+- ["PSo12MKAnnotation", "subtitle"]
+- ["PSo12MKAnnotation", "title"]
+- ["PSo12MKAnnotation", ""]
+- ["CSo8NSObject", "CLLocationCoordinate2D"]
+- ["CSo8NSObject", "CLLocationDirection"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "coordinate"]
+- ["CSo8NSObject", "identifier"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "radius"]
+- ["CSo8NSObject", "subtitle"]
+- ["CSo8NSObject", "title"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "coordinate"]
+- ["PSo16NSObjectProtocol", "identifier"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "radius"]
+- ["PSo16NSObjectProtocol", "subtitle"]
+- ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["VSs12StaticString", "deinit"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "C30Sample_CoreLocationCenteredPin13Geotification"
+- "PSs8Hashable"
+- "PSo12MKAnnotation"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "VSs12StaticString"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+interface-hash: "266f1dcdad8789e7f2ff4f998bef2063"

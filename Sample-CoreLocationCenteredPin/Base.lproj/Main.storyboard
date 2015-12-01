@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Sample_CoreLocationCenteredPin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="tqe-vn-H75">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                                <animations/>
+                            </mapView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aot-ba-pbC">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <animations/>
+                                <items>
+                                    <navigationItem title="Geolocation" id="uf4-41-Npi">
+                                        <barButtonItem key="leftBarButtonItem" title="Zoom" id="nWn-GT-it9">
+                                            <connections>
+                                                <action selector="zoomToCurrentLocation:" destination="BYZ-38-t0r" id="7NP-UG-7iy"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tqe-vn-H75" firstAttribute="leading" secondItem="aot-ba-pbC" secondAttribute="leading" id="99a-dS-VGT"/>
+                            <constraint firstItem="tqe-vn-H75" firstAttribute="top" secondItem="aot-ba-pbC" secondAttribute="top" id="KD5-7i-40o"/>
+                            <constraint firstItem="aot-ba-pbC" firstAttribute="trailing" secondItem="tqe-vn-H75" secondAttribute="trailing" id="MYi-zR-1j7"/>
+                            <constraint firstItem="tqe-vn-H75" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Shr-eb-yTz"/>
+                            <constraint firstAttribute="trailing" secondItem="aot-ba-pbC" secondAttribute="trailing" id="juO-LD-6Ua"/>
+                            <constraint firstItem="tqe-vn-H75" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="lSH-Wz-BS8"/>
+                            <constraint firstItem="tqe-vn-H75" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vIX-qC-JeJ"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <connections>
+                        <outlet property="mapView" destination="tqe-vn-H75" id="Sbl-r2-Qch"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="426" y="462"/>
+        </scene>
+    </scenes>
+</document>

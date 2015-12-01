@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "0cf573d3237cb722706c73c0cf610127"
+build_time: [500612097, 463775000]
+inputs:
+  "/Users/rongomes/Documents/projects/iphone/samples/Sample-CoreLocationCenteredPin/Sample-CoreLocationCenteredPin/ViewController.swift": !private [500362059, 0]
+  "/Users/rongomes/Documents/projects/iphone/samples/Sample-CoreLocationCenteredPin/Sample-CoreLocationCenteredPin/AppDelegate.swift": [500351903, 0]
+  "/Users/rongomes/Documents/projects/iphone/samples/Sample-CoreLocationCenteredPin/Sample-CoreLocationCenteredPin/Geotification.swift": !private [500362327, 0]
